@@ -11,7 +11,7 @@ namespace GestorDeProyectos.Modelo
         public int IdRecurso { get; set; }
         public string Nombre { get; set; }
         public string Descripcion { get; set; }
-        public string UnidadMedida { get; set; }
+        public UnidadMedida UnidadMedida { get; set; }
         public int Cantidad { get; set; }
         public float Precio { get; set; }
         public TipoRecurso Tipo { get; set; }

@@ -2,7 +2,7 @@
 {
     public enum UnidadMedida
     {
-        Litro,
+        Litro = 1,
         Kilo,
         Hora
     }

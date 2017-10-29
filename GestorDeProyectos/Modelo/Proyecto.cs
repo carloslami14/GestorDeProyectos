@@ -11,9 +11,12 @@ namespace GestorDeProyectos.Modelo
         public int IdProyecto { get; set; }
         public string Nombre { get; set; }
         public string Descripcion { get; set; }
-        public DateTime Fecha { get; set; }
+        public DateTime FechaInicio { get; set; }
+        public DateTime FechaFin { get; set; }
         public float Abance { get; set; }
         public EstadoProyecto Estado { get; set; }
         public float Costo { get; set; }
+        public Usuario Administrador { get; set; }
+        public Usuario Lider { get; set; }
     }
 }

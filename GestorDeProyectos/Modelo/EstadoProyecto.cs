@@ -2,7 +2,7 @@
 {
     public enum EstadoProyecto
     {
-        Activo,
+        Activo = 1,
         EnEjecucion,
         EnPausa,
         Finalizado,

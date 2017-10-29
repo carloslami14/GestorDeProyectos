@@ -2,7 +2,8 @@
 {
     public enum TipoRecurso
     {
-        Humano,
-        Hardware
+        Humano = 1,
+        Hardware,
+        Software
     }
 }

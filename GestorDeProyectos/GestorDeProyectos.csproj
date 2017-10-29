@@ -45,8 +45,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BD\Conexion.cs" />
+    <Compile Include="BD\Datos.cs" />
     <Compile Include="Interfaces\IInicioSesion.cs" />
     <Compile Include="Modelo\EstadoProyecto.cs" />
+    <Compile Include="Modelo\Nota.cs" />
     <Compile Include="Modelo\Proyecto.cs" />
     <Compile Include="Modelo\Recurso.cs" />
     <Compile Include="Modelo\Tarea.cs" />
@@ -54,6 +57,7 @@
     <Compile Include="Modelo\TipoUsuario.cs" />
     <Compile Include="Modelo\UnidadMedida.cs" />
     <Compile Include="Modelo\Usuario.cs" />
+    <Compile Include="Presentador\PresentadorInicio.cs" />
     <Compile Include="Presentador\PresentadorInicioSesion.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -133,8 +137,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="BD\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

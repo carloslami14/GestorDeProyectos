@@ -12,8 +12,11 @@ namespace GestorDeProyectos.Modelo
         public string Nombre { get; set; }
         public string Descripcion { get; set; }
         public List<Recurso> Recursos { get; set; }
+        public float Costo { get; set; }
         public int Abance { get; set; }
+        public List<Tarea> Dependencia { get; set; }
         public DateTime FechaInicio { get; set; }
         public DateTime FechaFin { get; set; }
+        public List<Nota> Notas { get; set; }
     }
 }

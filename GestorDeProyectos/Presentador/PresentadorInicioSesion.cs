@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using GestorDeProyectos.Interfaces;
+using GestorDeProyectos.BD;
 
 namespace GestorDeProyectos.Presentador
 {
@@ -18,21 +19,7 @@ namespace GestorDeProyectos.Presentador
 
         public void ValidarUsuario(string usuario, string contraseña)
         {
-            if (usuario == "carlos")
-            {
-                if (contraseña == "1234")
-                {
-                    _vista.Notificar("Usuario Correcto");
-                }
-                else
-                {
-                    _vista.Notificar("Contraseña incorrecta");
-                }
-            }
-            else
-            {
-                _vista.Notificar("Usuario incorrecto");
-            }
+           
         }
     }
 }

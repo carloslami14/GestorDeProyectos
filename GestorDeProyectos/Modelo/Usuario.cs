@@ -10,7 +10,9 @@ namespace GestorDeProyectos.Modelo
     {
         public int IdUsuario { get; set; }
         public string Nombre { get; set; }
+        public string NombreUsuario { get; set; }
         public string Contraseña { get; set; }
         public TipoUsuario Tipo { get; set; }
+        public DateTime FechaNac { get; set; }
     }
 }
